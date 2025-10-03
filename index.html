@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedLink</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a7f601ba2a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <!-- Brand/Logo -->
+            <a class="navbar-brand fw-bold" href="#">MedLink</a>
+
+            <!-- Toggle button for mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar items -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quem-somos">Quem Somos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-outline-light ms-2 px-3 fale-conosco" href="#contato"><i
+                                class="fa-brands fa-whatsapp"> </i>Fale Conosco</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner Hero -->
+    <section class="hero-banner position-relative">
+        <div class="banner-overlay position-absolute w-100 h-100"></div>
+        <img src="banner-home.jpg" alt="MedLink Banner" class="w-100" style="height: 80vh; object-fit: cover;">
+
+        <!-- Conteúdo sobreposto -->
+        <div class="position-absolute top-50 start-50 translate-middle text-center text-white">
+            <div class="container">
+                <h1 class="display-4 fw-bold mb-4">MedLink</h1>
+                <p class="lead fs-4 mb-5">A ficha médica inteligente que conecta médicos à pacientes</p>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Módulo de Conteúdo -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Imagem à esquerda -->
+                <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
+                    <div class="content-image-wrapper">
+                        <img src="banner-modulo1.jpg" alt="Médico utilizando tecnologia digital"
+                            class="img-fluid rounded-3 shadow-lg">
+                    </div>
+                </div>
+
+                <!-- Conteúdo de texto à direita -->
+                <div class="col-lg-6 col-md-12">
+                    <div class="content-text">
+                        <h2 class="display-5 fw-bold mb-4 text-primary">Como Funciona o MedLink</h2>
+                        <p class="lead mb-4">
+                            O MedLink revoluciona a forma como médicos e pacientes se conectam através de fichas médicas
+                            digitais inteligentes.
+                        </p>
+
+                        <div class="features-list">
+                            <div class="feature-item d-flex align-items-center mb-3">
+                                <div class="feature-icon me-3">
+                                    <i class="fas fa-shield-alt text-primary fs-4"></i>
+                                </div>
+                                <div>
+                                    <h5 class="mb-1">Segurança Total</h5>
+                                    <p class="mb-0 text-muted">Seus dados médicos protegidos com criptografia de ponta
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="feature-item d-flex align-items-center mb-3">
+                                <div class="feature-icon me-3">
+                                    <i class="fas fa-mobile-alt text-primary fs-4"></i>
+                                </div>
+                                <div>
+                                    <h5 class="mb-1">Acesso Mobile</h5>
+                                    <p class="mb-0 text-muted">Acesse suas informações de qualquer lugar, a qualquer
+                                        hora</p>
+                                </div>
+                            </div>
+
+                            <div class="feature-item d-flex align-items-center mb-3">
+                                <div class="feature-icon me-3">
+                                    <i class="fas fa-brain text-primary fs-4"></i>
+                                </div>
+                                <div>
+                                    <h5 class="mb-1">Inteligência Artificial</h5>
+                                    <p class="mb-0 text-muted">Análises inteligentes para melhor diagnóstico e
+                                        tratamento</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-4">
+                            <button class="btn btn-primary btn-lg me-3">
+                                <i class="fas fa-play me-2"></i>
+                                Ver Demonstração
+                            </button>
+                            <button class="btn btn-outline-primary btn-lg">
+                                <i class="fas fa-download me-2"></i>
+                                Baixar App
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Ação -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-10 text-center">
+                    <h2 class="display-6 fw-bold mb-4 text-primary">Comece Sua Jornada</h2>
+                    <p class="lead mb-5 text-muted">
+                        Escolha seu perfil e tenha acesso às funcionalidades específicas da plataforma MedLink
+                    </p>
+
+                    <div class="d-flex flex-column flex-sm-row gap-4 justify-content-center">
+                        <a href="pages/medico.html" class="btn btn-primary btn-lg px-5 py-3 action-button d-flex align-items-center">
+                            <i class="fas fa-user-md me-3 fs-4"></i>
+                            <div class="text-start">
+                                <div class="fw-bold fs-5">Sou Médico</div>
+                                <small class="opacity-75">Acesse fichas e pacientes</small>
+                            </div>
+                        </a>
+
+                        <a href="#" class="btn btn-success btn-lg px-5 py-3 action-button d-flex align-items-center">
+                            <i class="fas fa-user me-3 fs-4"></i>
+                            <div class="text-start">
+                                <div class="fw-bold fs-5">Sou Paciente</div>
+                                <small class="opacity-75">Gerencie sua saúde</small>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="mt-4">
+                        <p class="text-muted small">
+                            <i class="fas fa-shield-alt me-2"></i>
+                            Dados protegidos com criptografia de ponta a ponta
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Estilos personalizados -->
+    <style>
+        .hero-banner {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .banner-overlay {
+            background: linear-gradient(135deg, rgba(13, 109, 253, 0.306) 0%, rgba(25, 135, 84, 0.299) 100%);
+            z-index: 1;
+        }
+
+        .hero-banner .position-absolute {
+            z-index: 2;
+        }
+
+        .hero-banner img {
+            filter: brightness(0.8);
+        }
+
+        .btn {
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3) !important;
+        }
+
+
+        .fale-conosco:hover {
+            color: black !important;
+        }
+
+        .nav-link {
+            color: white !important;
+        }
+
+        /* Estilos do módulo de conteúdo */
+        .content-image-wrapper {
+            position: relative;
+            overflow: hidden;
+            border-radius: 1rem;
+        }
+
+        .content-image-wrapper img {
+            transition: transform 0.3s ease;
+        }
+
+        .content-image-wrapper:hover img {
+            transform: scale(1.05);
+        }
+
+        .feature-item {
+            transition: transform 0.2s ease;
+        }
+
+        .feature-item:hover {
+            transform: translateX(5px);
+        }
+
+        .feature-icon {
+            background: rgba(13, 110, 253, 0.1);
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Estilos dos botões de ação */
+        .action-button {
+            min-width: 200px;
+            transition: all 0.3s ease;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .action-button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .action-button i {
+            transition: transform 0.3s ease;
+        }
+
+        .action-button:hover i {
+            transform: scale(1.2);
+        }
+
+        @media (max-width: 768px) {
+            .hero-banner img {
+                height: 60vh !important;
+            }
+
+            .display-4 {
+                font-size: 2.5rem !important;
+            }
+
+            .lead {
+                font-size: 1.1rem !important;
+            }
+        }
+    </style>
+</body>
+
+</html>
